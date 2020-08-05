@@ -51,7 +51,7 @@ public class Seller implements Serializable {
         this.email = email;
     }
 
-    public Date getBirthDate() {
+    public java.util.Date getBirthDate() {
         return birthDate;
     }
 
